@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Fatlinda Brahaj</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <link href="./output.css" rel="stylesheet">
+</head>
+
+<body class="bg-darkMode font-sans text-white">
+
+    <!-- Introduction Section -->
+    <section class="max-w-4xl mx-auto text-center pt-22 py-8 px-4 md:px-0">
+        <img src="images/profile-pic.png" alt="Fatlinda Brahaj" class="mx-auto rounded-full w-32 h-32 mb-4">
+        <h2 class="text-2xl font-semibold">Hi 👋, I'm Fatlinda Brahaj</h2>
+        <p class="mt-4 text-gray-500 leading-relaxed">
+            <strong>Software Engineer</strong>.<br>
+            Specializing in backend development with <strong>PHP</strong> and <strong>Laravel</strong>.<br>
+            Experienced in frontend with <strong>Tailwind</strong>, <strong>JavaScript</strong>, and <strong>React</strong>.<br>
+        </p>
+        <div class="mt-8 flex flex-col md:flex-row justify-center space-y-4 md:space-y-0 md:space-x-4">
+            <a href="mailto:fatlindabrahaj@gmail.com">
+                <button class="animate-border border-2 border-red-500 text-white font-semibold py-2 px-4 rounded-md transition duration-300 ease-in-out">
+                    Let's get in touch <i class="fas fa-paper-plane ml-2"></i>
+                </button>
+            </a>
+            <div class="flex items-center justify-center space-x-4">
+                <a href="https://github.com/fatliinda" class="bg-gray-800 p-3 rounded-md hover:bg-gray-700 transition duration-300 ease-in-out">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/fatlinda-brahaj" class="bg-gray-800 p-3 rounded-md hover:bg-gray-700 transition duration-300 ease-in-out">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="max-w-4xl mx-auto py-8 px-4 md:px-0">
+        <h3 class="text-xl font-semibold mb-4 text-center">Skills</h3>
+        <div class="flex flex-wrap justify-center space-x-4">
+            <div class="mb-4">
+                <img height='30' width='30' src="images/php-svgrepo-com.svg" alt="PHP">
+            </div>
+            <div class="mb-4">
+                <img height='30' width='30' src="images/laravel-svgrepo-com.svg" alt="Laravel">
+            </div>
+            <div class="mb-4">
+                <img height='30' width='30' src="images/react-svgrepo-com.svg" alt="React">
+            </div>
+            <div class="mb-4">
+                <img height='30' width='30' src="images/javascript-svgrepo-com.svg" alt="JavaScript">
+            </div>
+            <div class="mb-4">
+                <img height='30' width='30' src="images/tailwind-svgrepo-com.svg" alt="Tailwind CSS">
+            </div>
+            <!-- Add more skills here -->
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="max-w-4xl mx-auto py-8 px-4 md:px-0">
+        <h3 class="text-xl font-semibold mb-4 text-center">Education</h3>
+        <div class="text-center">
+            <p class="font-semibold">October 2021 - September 2024</p>
+            <p class="mt-2 text-gray-500 leading-relaxed max-w-prose mx-auto">
+                Bachelor of Computer Science
+            </p>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="max-w-4xl mx-auto py-8 px-4 md:px-0">
+        <h3 class="text-xl font-semibold mb-12 text-center">Projects</h3>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <!-- Project 1 -->
+            <div class="bg-secondColor rounded-lg shadow-lg overflow-hidden transform transition-all hover:scale-105">
+                <div class="h-56 w-full overflow-hidden">
+                    <img src="images/maturanti.png" alt="Project 1" class="w-full h-full object-cover">
+                </div>
+                <div class="p-6">
+                    <h4 class="text-lg font-semibold">Maturanti</h4>
+                    <p class="text-sm text-gray-400">An educational platform built with Laravel where students can take quizzes to prepare for exams. With a dedicated admin panel for CRUD operations, focusing on robust authentication and database design.</p>
+                    <br>
+                    <a href="https://github.com/fatliinda/maturanti" class="text-blue-500 hover:underline">View Project</a>
+                </div>
+            </div>
+            <!-- Project 2 -->
+            <div class="bg-secondColor rounded-lg shadow-lg overflow-hidden transform transition-all hover:scale-105">
+                <div class="h-56 w-full overflow-hidden">
+                    <img src="images/bookstore1.png" alt="Project 2" class="w-full h-full object-cover">
+                </div>
+                <div class="p-6">
+                    <h4 class="text-lg font-semibold">Bookstore</h4>
+                    <p class="text-sm text-gray-400">A complete online store using Laravel and Tailwindcss, featuring cart management and order processing, with an admin interface for inventory management.</p>
+                    <br>
+                    <a href="https://github.com/fatliinda/online-bookstore-app" class="text-blue-500 hover:underline">View Project</a>
+                </div>
+            </div>
+            <!-- Project 3 -->
+            <div class="bg-secondColor rounded-lg shadow-lg overflow-hidden transform transition-all hover:scale-105">
+                <div class="h-56 w-full overflow-hidden">
+                    <img src="images/task.png" alt="Project 3" class="w-full h-full object-cover">
+                </div>
+                <div class="p-6">
+                    <h4 class="text-lg font-semibold">Task Management Application</h4>
+                    <p class="text-sm text-gray-400">A productivity tool built with Laravel, Livewire, and Filament, enabling users to efficiently manage tasks. The application features an admin panel for overseeing task status, reviewing tasks, and managing users.</p>
+                    <br>
+                    <a href="https://github.com/fatliinda/task-manager" class="text-blue-500 hover:underline">View Project</a>
+                </div>
+            </div>
+            <div class="bg-secondColor rounded-lg shadow-lg overflow-hidden transform transition-all hover:scale-105">
+                <div class="h-56 w-full overflow-hidden">
+                    <img src="images/landing.png" alt="Project 4" class="w-full h-full object-cover">
+                </div>
+                <div class="p-6">
+                    <h4 class="text-lg font-semibold">Flairix</h4>
+                    <p class="text-sm text-gray-400">A visually appealing and responsive landing page built with Tailwind CSS, designed to engage users. It features utility classes for efficient styling, ensuring a
+                        consistent design across devices.</p>
+                        <br>
+                        <a href="https://github.com/fatliinda/flairix-landing-page" class="text-blue-500 hover:underline">View Project</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="max-w-4xl mx-auto py-8 px-4 md:px-0">
+            <h3 class="text-xl font-semibold mb-4 text-center">Contact✉️</h3>
+            <div class="text-center">
+                <p class="mt-2 text-gray-500 leading-relaxed max-w-prose mx-auto">
+                    I’d love to hear from you! If you have any questions or ideas, feel free to reach out.</p>
+                    <i class="fas fa-envelope  text-purple-400 mr-2"></i>
+                    <a href="mailto:fatlindabrahaj@gmail.com"></a> <span class="text-lg text-gray-500 font-medium">fatlindabrahaj@gmail.com</span></a>
+            </div>
+        </section>
+        
+        <footer class="bg-secondColor py-8">
+            <div class="text-center">
+                <p class="text-gray-400">© 2024 Fatlinda Brahaj. All rights reserved.</p>
+            </div>
+        </footer>
+    </body>
+    </html>
